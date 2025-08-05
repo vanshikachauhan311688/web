@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+       body{
+            background-color: rgb(193, 41, 155);
+        }
+    </style>
+</head>
+<body>
+    <h1><center>registration form</center></h1>
+    <input type="text"placeholder="username">
+    <br>
+    <hr>
+    <input type="text"placeholder="Email">
+    <hr>
+    <input type="text"placeholder="password">
+    <hr>
+    <h1>select course</h1>
+    <select name="course"> 
+        <option value="web development">web development</option> 
+        <option value="cyber security">cyber security</option>
+        <option value="data science">data science</option>
+        <option value="AI">AI</option>
+        <option value="data analytics">data analytics</option>
+        <hr>
+    <br>
+            <label for="101">
+                <input type="radio"value="class IX"name="class">classIX
+                </label>
+                <label for="102">
+                <input type="radio"value="class X"name="class">classX
+                </label>
+                <hr>
+                <button style="color:rgb(204, 78, 99) getvalue()">sign up</button>
+                <script>
+                    function getValue(){
+                    let userName= document.getElementById("username").value;
+                    console.log("userName",userName);
+                    let email= document.getElementById("email").value;
+                    console.log("email", email);
+                    let password= document.getElementById('password').value;
+                    console.log("password",password)
+                    let date= document.getElementById("dob").value
+                    console.log("date",date)
+                    }
+                </script>
+        <!-- 
+             
+    1) with value with return
+    function fundtionName(value){
+        retun value
+    }
+    2) with value without return
+    function fundtionName(value){
+        
+    }
+    3)without value without return
+    function fundtionName(){
+       
+    }
+    4)without value with return
+    function fundtionName(){
+        retun value
+    }
+ -->
+    
+    </body>
+    </html>
+    
+    
+                
